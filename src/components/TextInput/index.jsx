@@ -19,6 +19,7 @@ const TextInputStyle = styled.input`
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
+  font-family: 'GandhiSansRegular';
 `;
 
 const SearchIconStyle = styled.img`
