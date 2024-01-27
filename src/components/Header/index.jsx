@@ -2,8 +2,8 @@ import styled from "styled-components";
 import TextInput from "../TextInput";
 
 const HeaderStyle = styled.header`
-  padding: 60px 0px;
-  margin: 0px 20px;
+  padding: 60px 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   img {

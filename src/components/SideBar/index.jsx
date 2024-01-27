@@ -3,8 +3,8 @@ import NavLink from "./NavLink";
 
 const ListStyled = styled.ul`
   list-style: none;
-  padding: 0px;
-  margin: 0px 20px;
+  padding: 0;
+  margin: 0;
   width: 212px;
 `;
 
