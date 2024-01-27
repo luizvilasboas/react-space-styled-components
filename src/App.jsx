@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import Banner from "./components/Banner";
 import bannerImage from "./assets/images/banner.png";
+import Galery from "./components/Galery";
 
 const GradientBackground = styled.div`
   background: linear-gradient(
@@ -12,19 +13,25 @@ const GradientBackground = styled.div`
     #04244f 48%,
     #154580 96.76%
   );
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 `;
 
 const MainContainer = styled.main`
   display: flex;
-  gap: 24px;
+  gap: 100px;
 `;
 
 const AppContainer = styled.div`
   width: 1440px;
   margin: 0 auto;
   max-width: 100%;
+`;
+
+const GaleryContent = styled.section`
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 `;
 
 function App() {
@@ -35,10 +42,13 @@ function App() {
         <Header />
         <MainContainer>
           <SideBar />
-          <Banner
-            text="Most complete galery of space!"
-            backgroundImage={bannerImage}
-          />
+          <GaleryContent>
+            <Banner
+              text="Most complete galery of space!"
+              backgroundImage={bannerImage}
+            />
+            <Galery />
+          </GaleryContent>
         </MainContainer>
       </AppContainer>
     </GradientBackground>

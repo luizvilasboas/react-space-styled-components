@@ -14,6 +14,10 @@ const GlobalStyles = createGlobalStyle`
     src: local('Gandhi Sans Bold'), local('GandhiSansBold'), url(${GandhiSansBold});
   }
 
+  :root {
+    font-family: 'GandhiSansRegular';
+  }
+
   html {
     line-height: 1.15; 
     -webkit-text-size-adjust: 100%; 
