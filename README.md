@@ -4,7 +4,7 @@ This is a web-application made to see images of space that I made during one of 
 
 ## Demo
 
-![Demo of react-space-styled-components](https://gitlab.com/alura-courses-code/react/react-space-styled-components/-/raw/main/img/demo.png)
+![Demo of react-space-styled-components](https://github.com/luizvilasboas/react-space-styled-components/blob/main/img/demo.png?raw=true)
 
 You can find a live demo by clicking [here](https://react-space-styled-components.netlify.app).
 
@@ -22,7 +22,7 @@ Before getting started, make sure you have the following requirements installed 
 Clone this repository to your desired folder on your machine:
 
 ```
-git clone https://gitlab.com/alura-courses-code/react/react-space-styled-components.git
+git clone https://github.com/luizvilasboas/react-space-styled-components.git
 ```
 
 ### Step 2: Install dependencies
@@ -49,4 +49,4 @@ If you wish to contribute to this project, feel free to open a merge request. We
 
 ## License
 
-This project is licensed under the [MIT](https://gitlab.com/alura-courses-code/react/react-space-styled-components/-/blob/main/LICENSE). Refer to the LICENSE file for more details.
+This project is licensed under the [MIT](https://github.com/luizvilasboas/react-space-styled-components/blob/main/LICENSE). Refer to the LICENSE file for more details.
